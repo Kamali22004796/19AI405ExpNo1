@@ -41,9 +41,9 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
- # Program"
+Program: 
  ```
- import random
+import random
 import time
 
 
@@ -238,10 +238,13 @@ if   __name__ == "__main__":
         print("AgentLocation : {0}".format(agent.location)) 
         print("Performance : {0}".format(agent.performance)) 
         time.sleep(3)
+
+
 ```
-# output:
+    
+output:
 
 ![image](https://github.com/user-attachments/assets/f2787d2e-2c73-4b1f-a9b3-2cd4ad1e4f1d)
 
-# Result:
+Result:
 Thus the Developing AI Agent with PEAS Description was implemented using python programming.
